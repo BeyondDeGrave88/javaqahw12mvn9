@@ -18,10 +18,6 @@ public class Todos {
         return tasks;
     }
 
-    public boolean matches(String query) {
-        return false;
-    }
-
     public Task[] search(String query) {
         Task[] result = new Task[0];
         for (Task task : tasks) {
